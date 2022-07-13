@@ -1,0 +1,44 @@
+.info{
+    margin: 5% 0 0 2%;
+}
+
+.info h3{
+    font-size: 2rem;
+    font-family: 'Roboto Serif';
+    color: #ffffffe0;
+}
+
+ul{
+    margin-top: 2%;
+}
+li{
+    margin-top: 0.5%;
+    font: 1.25rem 'Heebo';
+} 
+
+p{
+    font-size: 1.5rem;
+    font-family:  'Courier New', monospace;
+    margin: 3%;
+    text-align: center;
+}
+
+@media screen and (max-width: 720px){
+    .info h3{
+        font-size: 1.35rem;
+    }
+    ul{
+        padding: 0;
+        width: 90%;
+        margin: 3% auto 0 auto;
+    }
+
+    li{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 1rem;
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+}

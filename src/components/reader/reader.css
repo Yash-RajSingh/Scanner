@@ -1,0 +1,94 @@
+.readerDiv {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  font: 1.5rem "Heebo";
+  margin: 0;
+  font-weight: 600;
+  color: #ffffffe0;
+}
+.upImg {
+  width: 50%;
+  margin-top: 2%;
+  border: 2px solid rgba(0, 0, 0, 0.723);
+}
+.container div {
+  width: 50%;
+  text-align: center;
+}
+
+.container p {
+  padding: 1rem;
+  width: 70%;
+  margin: 2% auto;
+  text-align: left;
+  font-size: 1.5rem;
+  border: 1.5px solid rgba(0, 0, 0, 0.723);
+  box-shadow: 2px 2px 5px black;
+  line-height: 2rem;
+}
+
+.Handlers {
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: 3%;
+}
+input::file-selector-button {
+  color: black;
+  font-family: "Heebo";
+  font-weight: bolder;
+  padding: 0.7rem 1rem;
+  border-radius: 0.25rem;
+  background: #4799eb;
+  border: 1px solid rgba(0, 0, 0, 0.739);
+}
+
+.Handlers button {
+  font-family: "Heebo";
+  font-weight: bolder;
+  color: black;
+  padding: 0.7rem 1rem;
+  border-radius: 0.25rem;
+  background: #4799eb;
+  border: 1px solid rgba(0, 0, 0, 0.739);
+  margin-left: 3%;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    flex-direction: column;
+  }
+  .container div {
+    width: 90%;
+    margin-top: 5%;
+  }
+  h3 {
+    font-size: 1.25rem;
+    margin-top: 5%;
+  }
+  .container p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .Handlers {
+    text-align: left;
+  }
+
+  input::file-selector-button {
+    padding: 0.5rem 0.7rem;
+  }
+  .Handlers button {
+    margin-left: 0;
+    margin-top: 2%;
+    padding: 0.5rem 0.7rem;
+  }
+}
